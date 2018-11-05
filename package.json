@@ -1,0 +1,38 @@
+{
+  "name": "Servicio de autenticacion",
+  "version": "1.0.0",
+  "description": "Servicio que permite autenticar y registrar usuarios.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "HAPI",
+    "JWT",
+    "AUTH",
+    "SEQUELIZE",
+    "POSTGRES",
+    "CRUD",
+    "SAMPLE",
+    "APP",
+    "BOILERPLATE"
+  ],
+  "author": "Hector Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "hapi": "^17.5.3",
+    "hapi-auth-jwt2": "^8.1.0",
+    "hapi-swagger": "^9.1.1",
+    "inert": "^5.1.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.3",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0",
+    "vision": "^5.3.3"
+  }
+}
